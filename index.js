@@ -9,23 +9,23 @@ const store = {
 };
 
 store.clients = {};
-store.clients.MikhailHitko = {
+store.clients[`Mikhail Hitko`] = {
   quantity: 10,
   bonuses: 5,
 };
-store.clients.OleksandraHorbenko = {
+store.clients[`Oleksandra Horbenko`] = {
   quantity: 20,
   bonuses: 10,
 };
-store.clients.OleksiiYelanskiy = {
+store.clients[`Oleksii Yelanskiy`] = {
   quantity: 25,
   bonuses: 10,
 };
-store.clients.OlenaDemchyk = {
+store.clients[`Olena Demchyk`] = {
   quantity: 5,
   bonuses: 0,
 };
-store.clients.OlhaNevzghodova = {
+store.clients[`Olha Nevzghodova`] = {
   quantity: 30,
   bonuses: 15,
 };
